@@ -1,76 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>fabric trading website</title>
-    <style>
-        #about us
-        {
-        background-color:#4e0abb;
-                color: white;
-                text-align: justify;
-                font-size: x-large;
-                font-family:lancer;
-                padding-left: 10%;
-                padding-right: 30%;
-                line-height: 50px;
-        }
-        .fo input{
-            background-color: #010d14;
-                color: white;
-                font-size:medium;
-                font-family:lancer;
-        }
-        #foot
-            {
-                background-color:#eaeaeb;
-                color: white;
-                text-align: justify;
-                font-size: x-large;
-                font-family:lancer;
-                padding-left: 40%;
-                padding-top: 20px;
-                height: 50px;
-                font-weight: bolder;
-            }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: #fcbacc;">
-    <header style="background-color:white; height: 100px;">
-        <img src="download (1).png" alt="" width="70" height="100%" >
-        <span style="color: #290207; position:relative; bottom:40%; font-size:xx-large ;font-family:lancer;"><b>LSK TRADERS</b></span> 
-        <span style="color: #03000aea; position:absolute;top: 25px; right: 20px; font-size:x-large ;font-family:lancer;">
-            GSTIN:33AAAAA0000A1Z5 <br>
-            CONTACT US: 9629625156
-        </span>
-    </header>
-    <img src="photo-1630920501459-f3e99320c4a5.jpg" style="float: left; padding-right: 55px; padding-top: 35px;" height="400">
-    <p id="aboutus">
+<body>
+    <nav class="nav">
+        <span>LSK TRADERS</span>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">about</a></li>
+            <li> <a href="#">contact</a></li>
+            <li> <a href="#">services</a></li>
+            <li> <a href="#">projects</a></li>
+        </ul>
+        <div class="hamburger">
+         <span class="line"></span>
+         <span class="line"></span>
+         <span class="line"></span>
+        </div>
 
-        <b>ABOUT US</b> <br> ALL KIND OF FINE FABRICS AVAILABLE HERE <br>counts available :20s,25s,30s,40s <br>colors available: white,andra melange ,white melange,basic colors<br>
-        <a href="http://127.0.0.1:5500/fabric.html">click to view the fabric pricelist</a>
-     </p>
-
-     <form style="text-align: justify; font-family:mason ;color: #00060ce5; font-size:x-large ">
-        <fieldset style="width:25%; line-height: 50px;position: relative; left: 40%;">
-            <span style="padding-left:20%;">USER LOGIN</span><br>
-
-            <div class="fo">
-            Name : <input type="text" id="name" name="vname"><br>
-            password : <input type="password" name="password" id="password">
-            </div>
-
-            <input type="button"  value="LOGIN" style="background-color: #0115277c; height:50px;width: 80px; color:white; font-weight:bolder; font-size: large; position: relative; left: 35%;">
-
-        </fieldset>
-
-     </form><br><br>
-
-     <footer id="foot">
-        <span style="color: #290207; position:relative; bottom:40%; font-size:xx-large ;font-family:lancer;"><b>TIRUPUR - 641603</b></span>
-     </footer>
-
+    </nav>
+    <script src="script.js"></script>
     
-
-
 </body>
 </html>
